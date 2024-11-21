@@ -15,8 +15,8 @@ IMG_HEIGHT = 128  # Adjust this based on your images
 IMG_WIDTH = 128
 
 # Path to your dataset (adjust paths as necessary)
-train_dir = r"C:\Users\jowen\OneDrive\Documents\Trail Camera Pics\Train"
-test_dir = r"C:\Users\jowen\OneDrive\Documents\Trail Camera Pics\Test"
+train_dir = "./Test"
+test_dir = "./Validation"
 
 # Image augmentation for training to improve generalization
 train_datagen = ImageDataGenerator(
